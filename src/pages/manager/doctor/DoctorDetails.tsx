@@ -163,7 +163,7 @@ const DoctorDetails = () => {
                     className="size-6"
                     alt="icon"
                   />
-                  {doctor.booking_transactions.length} Total Transactions
+                  {doctor.booking_transactions?.length || 0} Transactions
                 </p>
               </div>
             </div>

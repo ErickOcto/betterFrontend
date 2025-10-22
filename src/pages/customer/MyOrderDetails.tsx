@@ -233,7 +233,7 @@ function MyOrderDetails() {
                         Price
                       </p>
                       <p className="font-bold leading-none">
-                        Rp {data.sub_total.toLocaleString("id")}
+                        Rp {data.subtotal.toLocaleString("id")}
                       </p>
                     </div>
                     <div className="flex items-center justify-between">
@@ -246,7 +246,7 @@ function MyOrderDetails() {
                         Sub Total
                       </p>
                       <p className="font-bold leading-none">
-                        Rp {data.sub_total.toLocaleString("id")}
+                        Rp {data.subtotal.toLocaleString("id")}
                       </p>
                     </div>
                     <div className="flex items-center justify-between">

@@ -13,7 +13,7 @@ const ProtectedRoute = ({ children, roles }: ProtectedRouteProps) => {
     if (loading) return;  
     if (!user) {
       navigate("/", { replace: true });
-    } else if (!user.roles) {
+    } else if (!(user.roles)) {
       console.log("User roles:", user.roles, "Required roles:", roles, "mam: ");
       navigate("/unauthorized", { replace: true });
     }
